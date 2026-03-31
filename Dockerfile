@@ -1,18 +1,17 @@
-FROM php:8.2-apache
+FROM php:8.2-cli
 
 RUN apt-get update && apt-get install -y \
     unzip \
     libsqlite3-dev \
     sqlite3 \
     && docker-php-ext-install pdo pdo_sqlite \
-    && a2enmod rewrite \
     && rm -rf /var/lib/apt/lists/*
 
-COPY . /var/www/html/
+WORKDIR /app
 
-RUN mkdir -p /var/www/html/data /var/www/html/storage_private \
-    && chown -R www-data:www-data /var/www/html \
-    && chmod -R 755 /var/www/html \
-    && chmod -R 775 /var/www/html/data /var/www/html/storage_private
+COPY . /app
 
-CMD ["apache2-foreground"]
+RUN mkdir -p /app/data /app/storage_private \
+    && chmod -R 775 /app/data /app/storage_private
+
+CMD sh -c "php -S 0.0.0.0:${PORT:-8080} -t /app"
