@@ -1,0 +1,8 @@
+perusahaan,kabupaten,kecamatan,desa,komoditas,status_izin,jenis_izin,nomor_sk,nib,luas_ha,latitude,longitude,tanggal_terbit,tanggal_berakhir,keterangan
+PT Batu Karo Sejahtera,Karo,Merdeka,Jaranguda,Batu Andesit,Aktif,IUP OP,540/001/IUP-OP/2024,1234567890123,25.5,3.1853,98.5048,2024-01-10,2029-01-10,Izin produksi aktif
+CV Dairi Mineral Jaya,Dairi,Sidikalang,Belang Malum,Pasir,Berakhir,SIPB,540/002/SIPB/2020,1234567890456,12.8,2.7345,98.3142,2020-02-15,2025-02-15,Masa berlaku telah berakhir
+PT Pakpak Bumi Lestari,Pakpak Bharat,Salak,Boangmanalu,Dolomit,Aktif,IUP Eks,540/003/IUP-EKS/2023,1234567890789,40.75,2.5666,98.2973,2023-06-20,2028-06-20,Tahap eksplorasi
+PT Samosir Quarry Mandiri,Samosir,Pangururan,Lumban Suhi-Suhi,Kerikil Berpasir,Aktif,IUP OP,540/004/IUP-OP/2022,1234567890999,18.2,2.6584,98.8588,2022-04-18,2027-04-18,Lokasi dekat akses jalan
+PT Humbang Stone,Humbang Hasundutan,Dolok Sanggul,Pasaribu,Batu Gunung Kuari,Proses,IUP OP,540/005/IUP-OP/2025,1234567890555,31.6,2.3005,98.9632,2025-01-15,2030-01-15,Dalam proses evaluasi
+PT Tapanuli Utara Mineral,Tapanuli Utara,Siborongborong,Sitabo-tabo,Batu Kapur,Aktif,IUP OP,540/006/IUP-OP/2021,1234567890888,55.1,2.2127,98.9925,2021-09-10,2026-09-10,Aktif operasional
+PT Medan Mineral Logistik,Kota Medan,Medan Marelan,Tanah Enam Ratus,Tanah Urug,Berakhir,SIPB,540/007/SIPB/2019,1234567890111,8.4,3.7155,98.6523,2019-03-01,2024-03-01,Perlu pembaruan data
